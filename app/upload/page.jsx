@@ -29,20 +29,20 @@ const YourFormComponent = () => {
   const [styleAmount, setStyleAmount] = useState(6);
 
   const artStyles = [
-    {url: '/assets/styles/anime.jpg', name:'Anime'},
-    {url: '/assets/styles/astronaut.jpg', name:'Astronaut'},
-    {url: '/assets/styles/cartoon.jpg', name:'Cartoon'},
-    {url: '/assets/styles/cute.jpg', name:'Cute'},
+    {url: '/assets/showcase/b.png', name:'Varient 1'},
+    {url: '/assets/showcase/b.png', name:'Varient 2'},
+    {url: '/assets/showcase/b.png', name:'Varient 3'},
+    {url: '/assets/showcase/b.png', name:'Varient 4'},
 
-    {url: '/assets/styles/furry.jpg', name:'Furry'},
-    {url: '/assets/styles/movie.jpg', name:'Movie'},
-    {url: '/assets/styles/prison.jpg', name:'Prison'},
-    {url: '/assets/styles/robot.jpg', name:'Robot'},
+    {url: '/assets/showcase/b.png', name:'Varient 5'},
+    {url: '/assets/showcase/b.png', name:'Varient 6'},
+    {url: '/assets/showcase/b.png', name:'Varient 7'},
+    {url: '/assets/showcase/b.png', name:'Varient 8'},
 
-    {url: '/assets/styles/valentine.jpg', name:'Valentine'},
-    {url: '/assets/styles/wedding1.jpg', name:'Wedding'},
-    {url: '/assets/styles/battleroyal.jpg', name:'Battle Royal'},
-    {url: '/assets/styles/zombie.jpg', name:'Zombie'},
+    {url: '/assets/showcase/b.png', name:'Varient 9'},
+    {url: '/assets/showcase/b.png', name:'Varient 10'},
+    {url: '/assets/showcase/b.png', name:'Varient 11'},
+    {url: '/assets/showcase/b.png', name:'Varient 12'},
   ]
 
   const packageList = [
