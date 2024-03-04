@@ -21,7 +21,7 @@ Navigate to [`localhost:3000`](http://localhost:3000/)
 
 ### Environment Variables:
 
-Create `.env.local` file in project directory with these values: (Ask admin for keys/secrets)
+Create `.env.local` file in project directory with these values:
 
 ```
 NEXTAUTH_SECRET=
