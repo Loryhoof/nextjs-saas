@@ -1,5 +1,8 @@
 # NextJS SaaS
 
+<img src='https://github.com/Loryhoof/nextjs-saas/assets/29487929/e1c3a596-8912-4a7f-b127-f8ee0ba2e511' width='200'>
+
+
 NextJS SaaS Project where I removed all sensitive bits. Not the best code.
 
 Includes:
@@ -12,6 +15,7 @@ Includes:
 Feel free to use.
 
 ### Local Development:
+
 
 `npm i`
 
