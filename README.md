@@ -34,3 +34,7 @@ NEXTAUTH_URL=
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 ```
+
+### Vercel Deployment:
+
+Use build command: `prisma generate && next build`
