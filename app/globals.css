@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient-wave {
+    background-image: url('/assets/bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .gradient-text {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #8b5cf6, #4399f7);
+  }
+
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loader {
+    border-top-color: #3498db;
+    animation: loader 1s infinite linear;
+  }
+
+/* Swiping */
+@keyframes swipeRight {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(5deg);
+  }
+}
+
+@keyframes swipeLeft {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-100%) rotate(-5deg);
+  }
+}
+
+.swipe-right {
+  animation: swipeRight 0.3s ease-in-out forwards;
+}
+
+.swipe-left {
+  animation: swipeLeft 0.3s ease-in-out forwards;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(90deg, #8b5cf6 0%, #4399f7 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  transition: transform 0.3s ease;
+}
+
+.animated-gradient:hover {
+  transform: scale(1.05);
+}
+
+.morphText {
+  transition: opacity 0.5s ease;
+  display: inline-block;
+  width: 100px; /* Adjust as needed */
+}
+
+.fade {
+  opacity: 0;
+}
+
+
+
+  
+
+
